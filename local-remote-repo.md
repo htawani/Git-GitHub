@@ -6,13 +6,14 @@
 
 **How to send files from local repository to remote repository / how to access remote repository?**  
 So, we have two options:  
-With the help of access token: PAT and SSH  
+With the help of --> PAT and SSH  
 --> PAT = Personal Access Token  
 \The profile on github.com is secured profile, password protected profile
 
-**Method 1 - PAT**  
+**Method 01 - with PAT**  
 Get the personal access token  [One time process for individual remote repository]  
-github.com > Display name > Settings > Developer settings > Personal access tokens > select token classic > Generate new token > classic >
+github.com > Display name > Settings > Developer settings >  
+Personal access tokens > select token classic > Generate new token > classic >  
 Note: token-name  
 Expiration: 7 days  
 Select scopes: select repo	[full control of private repositories]  
