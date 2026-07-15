@@ -1,5 +1,5 @@
 
-**### Git Useful Commands ###**
+**### Baic Git Useful Commands ###**
 
 1/ Initialize git VCS and empty repository   
 $ **cd absolute-dir-path**  
@@ -25,4 +25,28 @@ $ **git commit -m “message”**
 $ **git config --global user.name github-account-name**  
 $ **git config --global user.email email-address**
 
-8/ 
+8/ To check the status of working branch, indicated with *  
+$ **git branch**
+
+9/ To create separate branch instead to write code in production branch (or can say copy of actual working branch)  
+$ **git checkout -b new-branch-name**  
+$ **git status**
+
+10/ To switch/checkout from present working branch  
+$ **git checkout branch-name** 
+$ **git status**
+
+11/ To check log  
+$ **git log --oneline**  
+
+12/ To merge the change of separate-copy-branch to base-branch
+$ **git checkout base-branch-name**  <-- switch to branch to merge in
+$ **git status**  
+$ **git merge separate-copy-branch-name**  
+
+
+
+
+
+
+
