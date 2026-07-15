@@ -39,10 +39,11 @@ $ **git status**
 11/ To check log  
 $ **git log --oneline**  
 
-12/ To merge the change of separate-copy-branch to base-branch
-$ **git checkout base-branch-name**  <-- switch to branch to merge in
+12/ To merge the change of separate-copy-branch to base-branch  
+$ **git checkout branch-name-where-to-merge-separate-branch**  
 $ **git status**  
-$ **git merge separate-copy-branch-name**  
+$ **git merge branch-name-to-merge**  
+
 
 
 
