@@ -44,7 +44,7 @@ $ **git checkout branch-name-where-to-merge-separate-branch**
 $ **git status**  
 $ **git merge branch-to-merge**  
 
-
+**End of the Git Basic Session**
 
 
 
