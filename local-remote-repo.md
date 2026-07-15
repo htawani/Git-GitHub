@@ -27,6 +27,7 @@ Now, on local repository
 Switch to directory-where-remote-repo-to-copy  
 $ **cd dir-name**  
 Check the current branch status  
+$ **git init**  
 $ **checkout branch-name**  
 $ **git status**  
 Establish remote repository connection to local repo  
