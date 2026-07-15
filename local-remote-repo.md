@@ -25,18 +25,25 @@ Copy the HTTPS URL of remote rempository
 Expand remote repository github.com > copy **HTTPS** URL  
 
 Now, on local repository  
-Switch to directory-where-remote-repo-to-copy  
+Switch to remote-repo-dir  
 $ **cd dir-name**  
 Check the current branch status  
 $ **git init**  
-$ **checkout branch-name**  
 $ **git status**  
-Establish remote repository connection to local repo  
-$ **git remote add orgin https://github.com/remote-repo-path.git**  
-Check the connection status of remote repo to local repo  
-$ **git remote -v**
 
-Now, access theremote repository with the hlep to access key token  
-$ **git remote set-url  origin https://**remote-repo-access-token**@github.com/remote-repo-path.git**  
+Establish remote repository connection to local repo  
+$ **git remote add orgin https://github.com/repo-account-name/repo-path.git**  
+Check the connection status of remote repo to local repo  
+$ **git remote -v**  
+
+Now, access the remote repository with the hlep of (PAT) personal access key token  
+$ **git remote set-url  origin https://**remote-repo-PAT**@github.com/repo-account-name/repo-path.git**  
 
 Now, to push/pull data  
+$ **git push origin master**  
+$ **git pull origin master**
+
+**Method 02 - with SSH**
+
+
+**End of the session**
