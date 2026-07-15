@@ -1,5 +1,5 @@
 
-**### Baic Git Useful Commands ###**
+**### Basic Git Useful Commands ###**
 
 1/ Initialize git VCS and empty repository   
 $ **cd absolute-dir-path**  
