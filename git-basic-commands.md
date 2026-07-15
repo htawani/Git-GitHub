@@ -42,7 +42,7 @@ $ **git log --oneline**
 12/ To merge the change of separate-copy-branch to base-branch  
 $ **git checkout branch-name-where-to-merge-separate-branch**  
 $ **git status**  
-$ **git merge branch-name-to-merge**  
+$ **git merge branch-to-merge**  
 
 
 
